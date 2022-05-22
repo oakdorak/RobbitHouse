@@ -83,6 +83,10 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-style: oblique;
+    transition: 5ms;
+}
+.quien:hover{
+    filter: sepia(60%);
 }
 .img.desc{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -95,15 +99,6 @@ h1{
 .autor{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.img.img1{
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(/imgs/Robbit.gif);
-    background-size: cover;
-    background-position: center;
-}
-
 .img.img2{
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -121,7 +116,7 @@ h2{
     height: 500px;
     width: 100%;
     background-color: beige;
-    color: purple;
+    color: antiquewhite;
     text-shadow: 0 0 2px forestgreen;
     padding: 20px;
     font-size: 35px;
@@ -139,7 +134,6 @@ h2{
     transform: scale(1.05);
     transition: all 0.7s;
 }
-.
 .img1{
     background-image: url(imgs/Robbit_Stock.png);
     background-size: cover;
